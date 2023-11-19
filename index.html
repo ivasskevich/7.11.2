@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Game</title>
+   <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="center">
+       <div class="box">
+          <h1>Регестрация</h1>
+          <form method="get">
+             <label>Имя:
+                <input type="text" name="myname" placeholder="Имя" id="name">
+             </label>
+             <label>Email:
+                <input type="email" name="email" placeholder="Mail.com" />
+             </label>
+             <div class="Date">Др: <input type="date" name="Date" /></div>
+             <div class="select_Country">
+                <select name="Country" size="1">
+                    <optgroup label="Израиль">
+                        <option value='TelAviv' selected>Тель-Авив</option>
+                        <option value='Jerusalem'>Иерусалим</option>
+                        <option value='Haifa'>Хайфа</option>
+                     </optgroup>
+                   <optgroup label="США">
+                      <option value="NewYork">Нью-Йорк</option>
+                      <option value="LosAngeles">Лос-Анджелес</option>
+                      <option value="Chicago">Чикаго</option>
+                   </optgroup>
+                </select>
+             </div>
+             <div class="additional-fields">
+                <label>Ваш любимый жанр игр:
+                   <input type="text" name="favoriteGenre" placeholder="Шутер, RPG, стратегия, и т.д." />
+                </label>
+             </div>
+             <div class="additional-fields">
+                <label>Как часто вы играете в игры в неделю?
+                   <input type="number" name="gamesPerWeek" min="0" max="50" />
+                </label>
+             </div>
+             <div class="Type_hero">
+                <select name="HeroType" size="1">
+                   <optgroup label="Тип героя">
+                      <option value='Warrior' selected>Воин</option>
+                      <option value='Mage'>Маг</option>
+                      <option value='Rogue'>Разбойник</option>
+                      <option value='Explorer'>Исследователь</option>
+                   </optgroup>
+                </select>
+             </div>
+             <div class="button"><input type="submit" value="Отправить" /></div>
+          </form>
+          <div class="inform1"><a href="#">Играть здесь</a></div>
+          <hr>
+          <div class="inform2">Лучший опыт игры</div>
+       </div>
+    </div>
+ </body>
+ 
+ </html>
